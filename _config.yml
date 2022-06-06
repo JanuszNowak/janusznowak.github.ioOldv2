@@ -1,11 +1,10 @@
 title: Janusz Nowak
 email: janono@gmail.com
 description: >-
-  Write an awesome description for your new site here. You can edit this
-  line in _config.yml. It will appear in your document head meta (for
-  Google search results) and in your feed.xml site description.
+  Software Developer/Architect with over 15 years of experience, flustered with approach “It works on my computer” use DevOps practice for over 11 years, natural path going Cloud 7 years.
+  Passionate about ALM, Cloud, Server less, Infrastructure as Code :) Azure, Cloud, DevOps, Lean.
 baseurl: '' # the subpath of your site, e.g. /blog
-url: '' # the base hostname & protocol for your site, e.g. http://example.com
+url: https://blog.janono.pl   # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: jnowwwak
 github_username: janusznowak
 search: true
@@ -14,7 +13,7 @@ locale: en
 markdown: kramdown
 remote_theme: mmistakes/minimal-mistakes
 permalink: /:categories/:title/
-paginate: 5 # amount of posts to show
+paginate: 6 # amount of posts to show
 paginate_path: /page:num/
 timezone: PL
 breadcrumbs: true
@@ -34,8 +33,8 @@ plugins:
 author:
   name: Janusz Nowak
   avatar: https://avatars1.githubusercontent.com/u/5168275
-  bio: bio.
-  location: Warszawa, PL
+  bio: Developer, DevOps, Cloud, Lean Geek Azure Heroes Microsoft Certified Trainer.
+  location: Poland - Warsaw
   links:
   - label: LinkedIn
     icon: fab fa-fw fa-linkedin
@@ -49,6 +48,12 @@ author:
   - label: Facebook
     icon: fab fa-fw fa-facebook
     url: https://www.facebook.com/jnowwwak
+  - label: YouTube
+    icon: fab fa-fw fa-youtube
+    url: https://www.youtube.com/c/JanuszNowakjanono
+  - label: StackOverflow
+    icon: fab fa-fw fa-stack-overflow
+    url: https://stackoverflow.com/users/1878728/janusz-nowak
 
 footer:
   links:
@@ -64,6 +69,12 @@ footer:
   - label: Facebook
     icon: fab fa-fw fa-facebook
     url: https://www.facebook.com/jnowwwak
+  - label: YouTube
+    icon: fab fa-fw fa-youtube
+    url: https://www.youtube.com/c/JanuszNowakjanono
+  - label: StackOverflow
+    icon: fab fa-fw fa-stack-overflow
+    url: https://stackoverflow.com/users/1878728/janusz-nowak
 
 defaults:
 - scope:
@@ -102,3 +113,8 @@ analytics:
   google:
     tracking_id: UA-141219604-1
     anonymize_ip: false
+
+analytics2:
+  provider: azure
+  azure:
+    instrumentation_key: 03a77086-412d-4d25-b919-57631fd6c939
